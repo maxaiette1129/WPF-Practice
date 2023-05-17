@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_1"
+        mc:Ignorable="d"
+        Title="Main Window" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid x:Name="mainWindow">
+
+        <Button x:Name="addBtn" Content="For Loop Example" HorizontalAlignment="Right" VerticalAlignment="Top" Height="57" Width="166" Click="addBtn_Click" FontFamily="Bookman Old Style" FontSize="15" FontWeight="Bold" RenderTransformOrigin="-9.186,11.146" Margin="0,217,582,0"/>
+        <Button Content="Foreach loop example" HorizontalAlignment="Left" Margin="46,107,0,0" VerticalAlignment="Top" Height="69" Width="172" FontSize="15" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Do While" HorizontalAlignment="Left" Margin="52,312,0,0" VerticalAlignment="Top" Height="53" Width="166" Click="Button_Click_1"/>
+
+
+    </Grid>
+</Window>
